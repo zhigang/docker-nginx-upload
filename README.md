@@ -1,4 +1,4 @@
-# Kubernetes Ingress Controller for Kong
+# Nginx With Upload Module
 
 - Base Image
     - andarius/nginx-upload
