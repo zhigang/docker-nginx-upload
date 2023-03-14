@@ -11,7 +11,11 @@
 
 ## Run
 
-- start the nginx server
+- Default http auth
+    - test/test
+
+- Start the nginx server
+
   ```sh
   docker run --rm \
     -p 8088:8088 \
