@@ -22,3 +22,6 @@
     -v "$(pwd)/files:/nginx/share/" \
     --name nginx-upload nginx-upload
   ```
+
+- Upload pages
+    - http://localhost:8088/upload.html
