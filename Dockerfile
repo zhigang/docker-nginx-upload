@@ -15,3 +15,5 @@ COPY ./nginx/conf.d/            /etc/nginx/conf.d/
 COPY ./pages/                   /nginx/pages/
 COPY ./rename.py                /
 COPY ./docker-entrypoint.sh     /docker-entrypoint.sh
+
+RUN chmod +x /docker-entrypoint.sh
